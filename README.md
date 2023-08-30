@@ -56,3 +56,38 @@ Remember, knowledge is a powerful tool when wielded responsibly and ethically. A
 
 ---
 
+Implementing Discord Webhook to get Keystrokes:
+
+Access Your Discord Server:
+Log in to your Discord account and navigate to the server where you want to add the webhook.
+
+Server Settings:
+Click on the server name to open the drop-down menu, then select "Server Settings."
+
+Integrations:
+In the left sidebar, click on "Integrations."
+
+Webhooks:
+Scroll down and click on the "Webhooks" section.
+
+Create Webhook:
+Click the "Create Webhook" button.
+
+Webhook Setup:
+
+Name: Give your webhook a name. This is the name that will appear as the sender when the webhook posts.
+Channel: Choose the text channel where the webhook messages will be sent.
+Webhook Avatar: You can set an avatar image for the webhook (optional).
+Copy Webhook URL:
+After setting up the webhook, a webhook URL will be generated. This URL is unique and acts as the endpoint for sending messages to the webhook.
+
+Linking Webhook to Your Script:
+
+Python Code:
+In your Python script, you need to use the dhooks library to send messages to the webhook. Make sure you have the dhooks package installed (you can install it using pip).
+
+Replace Webhook URL:
+Locate the WEBHOOK_URL variable in the script and replace it with the URL of the webhook you created.
+
+Run Your Script:
+Run your Python script. It should now send messages, screenshots, or other data to the specified Discord channel via the webhook.
