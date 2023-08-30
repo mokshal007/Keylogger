@@ -24,6 +24,8 @@ This repository contains a Python keylogger script with extended functionalities
 
 7. **Interval Reporting:** The script reports captured data at regular intervals.
 
+8. **Stealth:** The keylogger once executed hides and runs in the backgroud of the computer without its victim knowing about it. 
+
 **Usage Instructions:**
 
 1. Ensure you have the required packages installed. You can do this by running `pip install -r requirements.txt`.
